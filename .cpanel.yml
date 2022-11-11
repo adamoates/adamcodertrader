@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYMENTPATH=/home/e3oeludivf5o/public_html/adamcodertrader.com/
-    - export REPOPATH=/home/e3oeludivf5o/public_html/repositories/adamcodertrader.com/
+    - export DEPLOYMENTPATH=/home/e3oeludivf5o/public_html/develop.adamcodertrader.com/
+    - export REPOPATH=/home/e3oeludivf5o/public_html/repositories/develop.adamcodertrader.com/
     - /bin/cp * $DEPLOYMENTPATH
     - /bin/cp * $REPOPATH
