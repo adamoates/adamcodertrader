@@ -3,7 +3,7 @@ deployment:
     - export DEPLOYMENTPATH=/home/e3oeludivf5o/public_html/adamcodertrader.com/
     - export REPOPATH=/home/e3oeludivf5o/public_html/repositories/adamcodertrader.com/
     - /bin/cp * $DEPLOYMENTPATH
-     - /bin/cp * $REPOPATH
+    - /bin/cp * $REPOPATH
     - /bin/chmod 755 ${DEPLOYMENTPATH}
     - /bin/find ${DEPLOYPATH} -type d -exec /bin/chmod 755 '{}' \;
     - /bin/find ${DEPLOYPATH} -type f -exec /bin/chmod 644 '{}' \;
