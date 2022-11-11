@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYMENTPATH=/public_html/adamcodertrader.com/
+    - /bin/cp index.html $DEPLOYMENTPATH
