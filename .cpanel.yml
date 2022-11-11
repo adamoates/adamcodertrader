@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYMENTPATH=/public_html/adamcodertrader.com/
+    - export DEPLOYMENTPATH=/home/e3oeludivf5o/public_html/adamcodertrader.com/
     - /bin/cp index.html $DEPLOYMENTPATH
