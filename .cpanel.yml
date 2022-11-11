@@ -2,7 +2,7 @@ deployment:
   tasks:
     - export DEPLOYMENTPATH=/home/e3oeludivf5o/public_html/adamcodertrader.com/
     - export REPOPATH=/home/e3oeludivf5o/public_html/repositories/adamcodertrader.com/
-    - /bin/rsync -aP --exclude '.git' --exclude '.well-known' ${REPOPATH}/ ${DEPLOYPATH} --delete-after
-    - /bin/chmod 755 ${DEPLOYPATH}
+    - /bin/cp * $DEPLOYMENTPATH
+    - /bin/chmod 755 ${DEPLOYMENTPATH}
     - /bin/find ${DEPLOYPATH} -type d -exec /bin/chmod 755 '{}' \;
     - /bin/find ${DEPLOYPATH} -type f -exec /bin/chmod 644 '{}' \;
