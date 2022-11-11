@@ -19,6 +19,7 @@
   "homepage": "https://github.com/adamoates/adamcodertrader#readme",
   "dependencies": {
     "dot-env": "^0.0.1",
+    "mysql2": "^2.3.3",
     "sequelize": "^6.25.5"
   }
 }
