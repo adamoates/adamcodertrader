@@ -2,3 +2,4 @@ deployment:
   tasks:
     - export DEPLOYMENTPATH=/home/e3oeludivf5o/public_html/adamcodertrader.com/
     - /bin/cp index.html $DEPLOYMENTPATH
+    - /bin/cp style.css $DEPLOYMENTPATH
