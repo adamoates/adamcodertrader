@@ -30,5 +30,4 @@ jobs:
     - run: npm test
     - run: rm -rf build
     - run: npm run build --if-present
-    - run: npm install serve
-    - run: serve -n build
+    - run: npx serve -n build
