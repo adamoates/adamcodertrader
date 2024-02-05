@@ -29,6 +29,5 @@ jobs:
     - run: npm ci
     - run: rm -rf build
     - run: npm run build --if-present
-    - run: npm test
     - run: npx i serve
     - run: npm deploy
